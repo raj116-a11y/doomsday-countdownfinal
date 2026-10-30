@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#000000">
+<ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:src="@drawable/bg"/>
+<View android:layout_width="match_parent" android:layout_height="match_parent" android:background="#AD000000"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="16dp">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DECEMBER 17, 2026" android:textColor="#FFFFFF" android:textSize="14sp" android:fontFamily="monospace" android:textStyle="bold" android:letterSpacing="0.25"/>
+<TextView android:id="@+id/countdownText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="47 DAYS : 12 HOURS : 22 MINS : 14 SEC" android:textColor="#FFFFFF" android:textSize="16sp" android:fontFamily="monospace" android:textStyle="bold" android:singleLine="true" android:layout_marginTop="12dp"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="UNTIL DOOMSDAY" android:textColor="#FFFFFF" android:textSize="10sp" android:fontFamily="monospace" android:letterSpacing="0.3" android:layout_marginTop="12dp"/>
+</LinearLayout>
+</FrameLayout>
